@@ -13,7 +13,7 @@ from mass_gates.msh import MshForceStopCallback
 router = Router()
 
 # Admin IDs (must match the rest of the bot)
-ADMIN_IDS = {8502412301, 8952038376, 7814400733}
+ADMIN_IDS = {7990874437,7634077852}
 
 # Premium Emoji IDs (provided by owner)
 EMOJI_RED_TICK   = "6147565374289220368"
