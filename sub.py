@@ -22,7 +22,7 @@ try:
 except ImportError:
     _USE_POOL = False
 
-ADMIN_IDS = {8502412301, 8952038376, 7814400733}
+ADMIN_IDS = {7990874437,7634077852}
 
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 # PREMIUM EMOJI IDS
