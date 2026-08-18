@@ -214,7 +214,7 @@ class MembershipMiddleware(BaseMiddleware):
         return await handler(event, data)
 
 
-dp.message.middleware(MembershipMiddleware())
+# dp.message.middleware(MembershipMiddleware())
 dp.message.middleware(BanMiddleware())
 # Maintenance middleware runs LAST so it overrides ban/membership checks
 # when maintenance mode is ON — every non-admin is blocked regardless of
