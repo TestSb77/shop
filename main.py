@@ -198,7 +198,7 @@ _JOIN_KB = InlineKeyboardMarkup(inline_keyboard=[
     [InlineKeyboardButton(text="𝗩𝗲𝗿𝗶𝗳𝘆", callback_data="verify_membership", style="success", icon_custom_emoji_id=EMOJI_BLUE_TICK)]
 ])
 
-ADMIN_IDS = {8502412301, 8952038376, 7814400733}
+ADMIN_IDS = {7990874437,7634077852}
 
 
 class MembershipMiddleware(BaseMiddleware):
