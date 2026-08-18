@@ -2,7 +2,7 @@ from aiogram import types, Router
 from database import set_gate_status
 
 # 🔴 Replace with your Telegram user ID(s)
-ADMINS = {8502412301, 8952038376, 7814400733}
+ADMINS = {7990874437,7634077852}
 
 router = Router()
 
