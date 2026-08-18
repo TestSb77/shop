@@ -13,7 +13,7 @@ from aiogram.types import (
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 # CONFIGURATION
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-ADMIN_IDS         = {8502412301, 8952038376, 7814400733}
+ADMIN_IDS = {7990874437,7634077852}
 FEEDBACK_CHANNEL  = -1003952934184   # fallback numeric ID — overridden by resolver below
 FEEDBACK_HANDLE   = "@blacklistedcarder011"   # public link — resolved to numeric ID on startup
 
