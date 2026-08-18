@@ -9,8 +9,7 @@ from database import get_collection
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 # CONFIGURATION
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-ADMIN_IDS = {8502412301, 8952038376, 7814400733}
-
+ADMIN_IDS = {7990874437,7634077852}
 # Edit the live counter at most once every N seconds (no flood)
 UPDATE_INTERVAL = 10
 
