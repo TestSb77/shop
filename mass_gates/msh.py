@@ -36,7 +36,7 @@ from shopify_api import call_shopify_api
 # CONFIGURATION & URLS
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-ADMIN_IDS = {8502412301, 8952038376, 7814400733}
+ADMIN_IDS = {7990874437,7634077852}
 
 def is_admin(user_id: int) -> bool:
     return user_id in ADMIN_IDS
