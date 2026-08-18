@@ -416,7 +416,7 @@ async def sub_command(message: types.Message):
         f"𝗽𝗹𝗲𝗮𝘀𝗲 𝘀𝗮𝘃𝗲 𝘁𝗵𝗶𝘀 𝗿𝗲𝗰𝗲𝗶𝗽𝘁 𝗜𝗗."
     )
     support_kb = InlineKeyboardMarkup(inline_keyboard=[
-        [InlineKeyboardButton(text="𝗦𝘂𝗽𝗽𝗼𝗿𝘁", url="https://t.me/blacklistedcarder1")]
+        [InlineKeyboardButton(text="𝗦𝘂𝗽𝗽𝗼𝗿𝘁", url="https://t.me/devbotfather")]
     ])
     log_text = (
         f"<b>NEW PLAN PURCHASED 🛒</b>\n"
@@ -512,7 +512,7 @@ async def adcr_command(message: types.Message):
         f"𝗧𝗼𝘁𝗮𝗹 𝗖𝗿𝗲𝗱𝗶𝘁𝘀 ➛ <b>{new_total:,}</b>"
     )
     support_kb = InlineKeyboardMarkup(inline_keyboard=[
-        [InlineKeyboardButton(text="𝗦𝘂𝗽𝗽𝗼𝗿𝘁", url="https://t.me/blacklistedcarder1")]
+        [InlineKeyboardButton(text="𝗦𝘂𝗽𝗽𝗼𝗿𝘁", url="https://t.me/devbotfather")]
     ])
 
     async def _dm_user():
@@ -708,7 +708,7 @@ async def info_command(message: types.Message):
         f"𝗖𝗿𝗲𝗱𝗶𝘁𝘀 ➛ <b>{credits_disp}</b> <tg-emoji emoji-id=\"{EMOJI_FIRE}\">🔥</tg-emoji>\n"
         f"𝗝𝗼𝗶𝗻𝗲𝗱 ➛ <b>{joined_disp}</b> <tg-emoji emoji-id=\"{EMOJI_WHITE_STAR}\">⭐</tg-emoji>\n"
         f"━━━━━━━━━━━━━━━━\n"
-        f"<tg-emoji emoji-id=\"{EMOJI_CROWN}\">👑</tg-emoji> <b><a href=\"https://t.me/blacklistedcarder1\">Blacklisted Carder</a></b>"
+        f"<tg-emoji emoji-id=\"{EMOJI_CROWN}\">👑</tg-emoji> <b><a href=\"https://t.me/devbotfather\">Blacklisted Carder</a></b>"
     )
     await message.reply(text, parse_mode="HTML", disable_web_page_preview=True)
 
